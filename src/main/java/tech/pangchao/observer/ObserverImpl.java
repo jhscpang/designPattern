@@ -1,4 +1,4 @@
-package tech.pangchao.observerpattern;
+package tech.pangchao.observer;
 
 /**
  * Created by pangchao on 2017/3/28.

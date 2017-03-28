@@ -1,4 +1,4 @@
-package tech.pangchao.observerpattern;
+package tech.pangchao.observer;
 
 import java.util.ArrayList;
 import java.util.List;
