@@ -5,7 +5,7 @@ package pattern.design.observer;
  */
 public class ObserverImpl implements Observer {
 
-    //响应方法
+    // 响应方法
     public void update() {
         System.out.println("observer update...");
     }

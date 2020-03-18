@@ -5,12 +5,12 @@ package pattern.design.observer;
  */
 public interface Subject {
 
-    //注册方法
+    // 注册方法
     public void attach(Observer observer);
 
-    //注销方法
+    // 注销方法
     public void detach(Observer observer);
 
-    //通知方法
+    // 通知方法
     public void notice();
 }

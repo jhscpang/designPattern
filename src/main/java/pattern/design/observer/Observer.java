@@ -5,6 +5,6 @@ package pattern.design.observer;
  */
 public interface Observer {
 
-    //响应方法
+    // 响应方法
     public void update();
 }
