@@ -4,9 +4,9 @@ package pattern.design.chain;
  * Created by pangchao on 2017/3/29.
  */
 public class Note {
-
     //发起人
     private String author;
+
     //请假天数
     private int day;
 

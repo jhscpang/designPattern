@@ -11,7 +11,7 @@ public class Teacher extends Handler {
 
     @Override
     public void handleNote(Note note) {
-        //请假天数等于一天才有权限处理，否则交给上级处理
+        // 请假天数等于一天才有权限处理，否则交给上级处理
         int day = note.getDay();
         if (day == 1) {
             System.out.println("班主任批准了" + note.getAuthor() + "请假" + day + "天");

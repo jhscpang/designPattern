@@ -5,12 +5,12 @@ package pattern.design.chain;
  */
 public abstract class Handler {
 
-    protected Handler next;
+    protected Handler next; // 用来维护下游处理者
 
     public Handler(Handler next) {
         this.next = next;
     }
 
-    //抽象处理请求方法
+    // 抽象处理请求方法
     public abstract void handleNote(Note note);
 }

@@ -7,13 +7,13 @@ public class Client {
 
     public static void main(String[] args) {
 
-        Receiver receiver = new Receiver();
-        //构造器注入
-        Command command = new ConcreteCommand(receiver);
-        //set方法注入
-        Invoke invoke = new Invoke();
-        invoke.setCommand(command);
+        OpenWindowReceiver openWindowReceiver = new OpenWindowReceiver();
+        // 构造器注入
+        Command command = new OpenWindowCommand(openWindowReceiver);
+        // set方法注入
+        Invoker invoker = new Invoker();
+        invoker.setCommand(command);
 
-        invoke.call();
+        invoker.call();
     }
 }
