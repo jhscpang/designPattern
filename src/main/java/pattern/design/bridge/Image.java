@@ -11,5 +11,6 @@ public abstract class Image {
     public void setImageImp(OsImp imp) {
         this.imp = imp;
     }
+
     public abstract void parseFile(String fileName);
 }
